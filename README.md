@@ -63,19 +63,6 @@ When you reconnect to the shell, you will be greeted by the IP wizard which lets
 
 **IMPORTANT:** Set the IP to DHCP!
 
-Become ```root``` again:
-
-``` bash
-sudo -i
-```
-
-Install EVE DOCKERS:
-
-```bash
-apt update
-apt install eve-ng-dockers
-```
-
 When installation is complete, drop root access with ```exit```.
 
 You can now access your instance through the public IP, but it has no certs yet for HTTPS.
