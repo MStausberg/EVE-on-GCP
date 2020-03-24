@@ -70,6 +70,7 @@ sudo -i
 Install EVE DOCKERS:
 
 ```bash
+apt update
 apt install eve-ng-dockers
 ```
 
