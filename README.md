@@ -55,7 +55,7 @@ Update & Upgrade all Packages:
 apt update && apt upgrade -y
 ```
 
-Afterwwards, ```reboot``` the VM. You will obviously lose connection to the shell, just reconnect after some time (when you think the VM has rebooted).
+Afterwards, ```reboot``` the VM. You will obviously lose connection to the shell, just reconnect after some time (when you think the VM has rebooted).
 
 When you reconnect to the shell, you will be greeted by the IP wizard which lets you set up network connectivity.
 
