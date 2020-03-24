@@ -216,4 +216,4 @@ sudo service apache2 reload
 
 You should now be able to access your EVE-Instance through the public IP or via its FQDN (if you have set the DNS records, of course).
 
-The default credentials are admin/eve, you have to change them manually after first login.
+The default credentials are admin/eve, **you have to change them manually after first login!**
