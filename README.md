@@ -210,7 +210,7 @@ sudo nano /etc/apache2/sites-available/eve.example.com.conf
 Now we need to activate the new site and reload the config for Apache2:
 
 ```bash
-sudo a2ensite eve.example.com
+sudo a2ensite eve.example.com.conf
 sudo service apache2 reload
 ```
 
