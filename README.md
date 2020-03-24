@@ -15,6 +15,8 @@ Google will have created a default Project for you (aptly named "My-first-projec
 
 In the top bar, select the project you want to use.
 
+For easier access later on, either activate [https://cloud.google.com/compute/docs/oslogin](OS Login) add your SSH-key(s) like explained [HERE](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys)
+
 Open the Google Cloud Shell and enter the following comand to create an Ubuntu 16.04 Image with nested virtualization activated:
 
 ```bash
