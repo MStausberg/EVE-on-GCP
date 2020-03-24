@@ -71,16 +71,6 @@ We want to enable LetsEncrypt to fix that.
 
 ### Setting up LetsEncrypt
 
-Set your locale to en_US:
-
-```bash
-export LC_ALL="en_US.UTF-8"
-export LC_CTYPE="en_US.UTF-8"
-sudo dpkg-reconfigure locales
-```
-
-Hit OK twice and wait for the process to finish.
-
 Install Certbot:
 
 ```bash
