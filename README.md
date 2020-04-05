@@ -27,7 +27,9 @@ Now go on to actually create the VM instance: Navigate to Menu/Compute Engine/VM
 
 Edit your settings, you might want to use a region and zone close to your geographical location.
 
-I chose a N2 highmem machine with 16 vCPUs and 128GB RAM.
+IMPORTANT: choose a machine type that lets you choose the processor-family! for KVM to work, you need at least Haswell. E2 (automatic assignment) won't work!
+
+I chose a N1 standard machine with 16 vCPUs and 104GB RAM.
 
 **IMPORTANT:** "Deploy a Container Image" must be UNCHECKED
 
